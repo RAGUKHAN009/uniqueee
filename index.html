@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="hero">
+        <header>
+            <div class="logo">
+                <img src="./assets/img/8.png" alt="">
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        What's Included
+                        <span><i class="fa-solid fa-chevron-down"></i></span>
+                        <ul>
+                            <div class="ExternalDiv">
+                                <li>
+                                    <img className="elImage" src="assets/img/svg13.svg" alt="sales funnel icon #2 #2 #2"
+                                        width="24" />
+                                    <div class="DeepNav">
+                                        <span>Facebook Marketplace</span>
+                                        <p>
+                                            Auto-magically postand update <br />
+                                            vehicles to any personal profile
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img className="elImage" src="./assets/img/svg12.svg" alt="website icon #2 #2 #2"
+                                        width="24" />
+                                    <div class="DeepNav">
+                                        <span>Craigslist</span>
+                                        <p>
+                                            Automation. $5 pass through per <br />
+                                            post, no mark up.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img className="elImage" src="assets/img/svg11.svg"
+                                        alt="Online Courses icon #2 #2 #2" width="24" />
+                                    <div class="DeepNav">
+                                        <span>Micro-Campaigns</span>
+                                        <p>
+                                            Small ads for seasonal offers, <br />
+                                            holiday special and more...
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img className="elImage" src="assets/img/svg10.svg" alt="E-Commerce icon #2 #2 #2"
+                                        width="24" />
+                                    <div class="DeepNav">
+                                        <span>Real-Time Inventory</span>
+                                        <p>
+                                            Always display the correct data <br />
+                                            on any platform.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img className="elImage" src="assets/img/svg9.svg" alt="crm icon #2 #2 #2"
+                                        width="24" />
+                                    <div class="DeepNav">
+                                        <span>Advanced Targeting</span>
+                                        <p>
+                                            AutoTraders, Cars.com, etc.. <br />
+                                            Follow shoppers on Facebook <br />
+                                            and Instagram!
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img className="elImage" src="assets/img/svg8.svg" alt="landing page icon #2 #2 #2"
+                                        width="24" />
+                                    <div class="DeepNav">
+                                        <span>VIN Specific Leads</span>
+                                        <p>
+                                            Collect all the data from each <br />
+                                            lead for better follow up.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img className="elImage" src="assets/img/svg7.svg"
+                                        alt="membership sites icon #2 #2 #2" width="24" />
+                                    <div class="DeepNav">
+                                        <span>Integrations</span>
+                                        <p>
+                                            Sync lead flow directly to any <br />
+                                            CRM or Email.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img className="elImage" src="assets/img/svg6.svg"
+                                        alt="Global Products icon #2 #2 #2" width="24" />
+                                    <div class="DeepNav">
+                                        <span>Inventory Manager</span>
+                                        <p>
+                                            Take full control of your inventory <br />
+                                            data today, send to any third party.
+                                        </p>
+                                    </div>
+                                </li>
+                            </div>
+                        </ul>
+                    </li>
+                    <li class="hidden"><a href="#">Pricing</a></li>
+                    <li class="hidden"><a href="#" class="butt">Talk to Sales</a></li>
+                </ul>
+            </nav>
+            <div class="bars"><i class="fa-solid fa-bars"></i></div>
+            <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+            <script>
+                $(document).ready(function () {
+                    $(".bars").click(function () {
+                        $(".ExtentedSidebar").toggleClass("active");
+                    });
+                });
+                // const toggle = document.getElementsByClassName('menutoggle')
+
+                // toggle.onClick = function() {
+                //   toggle.classList.toggle('active')
+                // }
+            </script>
+            <div class="menubar">
+                <div class="ExtentedSidebar">
+                    <div id="closebtn"><i class="fa-solid fa-xmark"></i></div>
+                    <script>
+                        // $(document).ready(function () {
+                        //   $(".closebtn").click(function () {
+                        //     $(".Main").toggleClass("active");
+                        //   });
+                        // });
+                        $(document).ready(function () {
+                            $("#closebtn").click(function () {
+                                $(".ExtentedSidebar").toggleClass("active");
+                            });
+                        });
+                    </script>
+                    <h2>What’s Included</h2>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <span>Facebook Marketplace</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>Craigslist</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>Realtime-Time Inventory</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>Advanced Targeting</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>VIN Specific Leads</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>Intregrations</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span>Inventory Manager</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <h2>
+                        <a href="https://uniqueleverage.com/pricing">Pricing</a>
+                    </h2>
+                    <div class="Navbtn">
+                        <a href="https://calendly.com/uniqueleverage/scheduler/">
+                            Talk to Sales
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="hero-cont">
+            <div class="hero-deal">
+                <h1>Automatic Vehicle Posting for Dealers</h1>
+            </div>
+            <div class="hero-heading">
+                <h1>Meet UniqueLeverage.</h1>
+            </div>
+            <div class="hero-para">
+                <h1>Getting People To Your Vehicles And Turning Them Into Potential Customers Is What We Do Best</h1>
+            </div>
+            <div class="hero-butt">
+                <a href="https://calendly.com/uniqueleverage/scheduler/">Book Your Demo Today <i class="fa-solid fa-angles-right"></i></a>
+                <h3>No Contracts • Cancel Anytime</h3>
+            </div>
+            <div class="hero-list">
+                <ul>
+                    <li><span><i class="fa-solid fa-check"></i></span> Zero Computer Skills Needed</li>
+                    <li><span><i class="fa-solid fa-check"></i></span> Perfect For Any Size Team</li>
+                    <li><span><i class="fa-solid fa-check"></i></span> Market, Sell, And Deliver Like A Pro</li>
+                </ul>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="body-2">
+        <div class="video-cont">
+            <div class="video-header"><i class="fa-regular fa-circle-play"></i><span>Connecting With Your Systems For
+                    Optimized Results!</span></div>
+            <div class="video-container">
+                <img src="./assets/img/1.png" alt="">
+            </div>
+            <div class="video-carts">
+                <div class="video-cart-1">
+                    <img class="cart-img" src="./assets/img/svg5.svg" alt="">
+                    <h1 class="cart-text">Allow Permission</h1>
+                </div>
+                <div class="video-cart-2">
+                    <img class="cart-img" src="./assets/img/svg1.svg" alt="">
+                    <h1 class="cart-text">Plug & Play Software</h1>
+                </div>
+                <div class="video-cart-3">
+                    <img class="cart-img" src="./assets/img/svg2.svg" alt="">
+                    <h1 class="cart-text">Inventory Auto-Poster</h1>
+                </div>
+            </div>
+        </div>
+        <div class="body-2-raiting">
+            <img src="./assets/img/svg4.svg" alt="">
+        </div>
+        <div class="body-2-heading">
+            <h1>World Class Dealerships Love Using UniqueLeverage</h1>
+        </div>
+        <div class="body-2-deal">
+            <h1>See For Yourself…</h1>
+        </div>
+        <div class="body-2-carts-cont">
+            <div class="body-2-cart">
+                <div class="cart-contend">
+                    <img src="./assets/img/9.png" alt="">
+                    <h1>2022 S Robertson Blvd,
+                        Los Angeles, California</h1>
+                </div>
+            </div>
+            <div class="body-2-cart">
+                <div class="cart-contend">
+                    <img src="./assets/img/3.png" alt="">
+                    <h1>540 US-1 • Edison,
+                        New Jersey</h1>
+                </div>
+            </div>
+            <div class="body-2-cart">
+                <div class="cart-contend">
+                    <img src="./assets/img/7.png" alt="">
+                    <h1>23971 N. Telegraph Rd.
+                        Brownstown, Michigan</h1>
+                </div>
+            </div>
+        </div>
+        <div class="body-2-butt">
+            <a class="buto" href="https://calendly.com/uniqueleverage/scheduler/">Book Your Demo Today <i class="fa-solid fa-angles-right"></i></a>
+            <h1>No Contracts • Cancel Anytime</h1>
+        </div>
+        <div class="body-2-img">
+            <img src="./assets/img/6.png" alt="">
+            <h1>UniqueLeverage Is Rated Excellent (4.7 out of 5 based on 1,835 reviews)</h1>
+        </div>
+    </section>
+    <section class="body-3">
+        <div class="body-3-1">
+            <div class="left-align">
+                <h1>Why Unique Leverage?</h1>
+                <p>
+                    <span>Let’s face it</span> — popular listing providers and local classified ads like Marketplace or
+                    Craigslist is
+                    where customers find dealerships.
+                </p>
+                <h2>That’s where we come in.</h2>
+                <h6>
+                    Our software is like a “digital bridge” that connects vehicles from your website to other platforms
+                    with the click of a button!
+                </h6>
+            </div>
+            <div class="right-align">
+                <img src="./assets/img/5.png" alt="">
+            </div>
+        </div>
+        <div class="body-3-2">
+            <h1>FACEBOOK VIN LEAD ADS</h1>
+            <p>Sync your on-the-ground inventory Facebook and Instagram ads delivered to In-Market Shoppers in
+                real-time.
+            </p>
+            <div class="phone-animation">
+
+            </div>
+        </div>
+        <div class="body-3-3">
+            <h1>Do You Want To See Real Campaigns?</h1>
+            <h2>Real Time Inventory Pricing & Reporting!</h2>
+            <div class="body-3-3-butt">
+                <a href="https://calendly.com/uniqueleverage/scheduler/">Book Your Demo Today <i class="fa-solid fa-angles-right"></i></a>
+            </div>
+            <h3>No Contracts • Cancel Anytime</h3>
+        </div>
+    </section>
+    <section class="body-4">
+        <div class="body-4-1">
+            <div class="row-1-col-1">
+                <img src="./assets/img/11.png" alt="">
+            </div>
+            <div class="row-1-col-2">
+                <h1>Automation <br> For Salespeople</h1>
+                <p>
+                    <span class="body-4-span-under">We are pioneers</span> in the automotive industry and the first ever
+                    platform designed to <span class="body-4-span-bol">post
+                        vehicles directly on the Facebook Marketplace for sales people</span>
+                </p>
+                <p>
+                    When we think about purchasing a vehicle in todays market and economy, chances are <span
+                        class="body-4-span-bol">— you'll
+                        check out Craigslist & Facebook Marketplace for the best deals!</span>
+                </p>
+                <p>
+                    And guess what? ANY dealership can afford this, anually. (Because yes, it really does work!)
+                </p>
+            </div>
+        </div>
+        <div class="body-4-2">
+            <div class="row-2-col-1">
+                <div class="row-2-col-img">
+                    <img src="./assets/img/fb.png" alt="">
+                </div>
+                <div class="row-2-col-text">
+                    <a class="buto" href="https://calendly.com/uniqueleverage/scheduler/">Book Your Demo Today</a>
+                    <h3>No Contracts • Cancel Anytime</h3>
+                    <a class="anchor" href="https://uniqueleverage.com/pricing">Learn More About Pricing →</a>
+                </div>
+            </div>
+            <div class="row-2-col-2">
+                <h1><span class="body-4-heading">UniqueLeverage Is… </span> Dynamic</h1>
+                <p>
+                    Posting vehicles for sale is great. But real-time data is critical if you want real business growth.
+                </p>
+                <h2>
+                    With UniqueLeverage, you can...
+                </h2>
+                <ul>
+                    <li><i class="fa-solid fa-chevron-right"></i> ​Dominate your local market with micro ad campaigns
+                    </li>
+                    <li>​<i class="fa-solid fa-chevron-right"></i> Generate leads for multiple sales people individaully
+                    </li>
+                    <li>​<i class="fa-solid fa-chevron-right"></i> Talk to more people looking to purchase a vehicle
+                        (...for pennies on the dollar!)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="body-5">
+        <div class="body-5-text">
+            <h1>Trusted By Top Brands</h1>
+        </div>
+        <div class="body-5-imgs">
+            <img src="./assets/img/12.png" alt="">
+            <img src="./assets/img/13.png" alt="">
+            <img src="./assets/img/14.png" alt="">
+            <img src="./assets/img/15.png" alt="">
+        </div>
+    </section>
+    <section class="body-6">
+        <div class="Main9">
+            <h1>Frequently Asked Questions</h1>
+            <div class="Main91">
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            Do I have to pay for updates?
+                            <i class="fa-solid fa-sort-down"></i>
+                        </div>
+                        <div class="accordion-content">
+                            <p>
+                                No! We give constant updates to our software, add new
+                                features and you get it all for FREE! Because UniqueLeverage
+                                is on the cloud, when we make an update or add new features,
+                                it's all yours!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            How long are your contracts?
+                            <i class="fa-solid fa-sort-down"></i>
+                        </div>
+                        <div class="accordion-content">
+                            <p>
+                                There are NO long term contracts or commitments. You can use
+                                UniqueLeverage month to month, and cancel at any time you'd
+                                like!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            If I have questions, is there someone I can talk to?
+                            <i class="fa-solid fa-sort-down"></i>
+                        </div>
+                        <div class="accordion-content">
+                            <p>
+                                Yes! We have a first class support team who can answer your
+                                questions 24 hours a day, 7 days a week! Just email our
+                                support help@uniqueleverage.com or call us directly (313)
+                                217-2212
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            If I cancel my UniqueLeverage account, will I lose my data?
+                            <i class="fa-solid fa-sort-down"></i>
+                        </div>
+                        <div class="accordion-content">
+                            <p>
+                                As with most "software-as-a-service" platforms, when you
+                                cancel your account, your data will become inaccessible.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            Can I connect my DMS? <i class="fa-solid fa-sort-down"></i>
+                        </div>
+                        <div class="accordion-content">
+                            <p>
+                                Yes, we partner and connect with some of the largest
+                                companies in the automotive space! Our systems connect with
+                                your current providers!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            Do I have to install anything?
+                            <i class="fa-solid fa-sort-down"></i>
+                        </div>
+                        <div class="accordion-content">
+                            <p>
+                                Yes, our Auto-Poster tool requires a Windows computer. Just
+                                login and we'll take care of the rest!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            If I don't like UniqueLeverage, how do I cancel?
+                            <i class="fa-solid fa-sort-down"></i>
+                        </div>
+                        <div class="accordion-content">
+                            <p>
+                                Simply call or send an email, click on your account and
+                                request to cancel the account.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <script>
+                    const accordions = document.querySelectorAll(".accordion-item");
+
+                    accordions.forEach((accordion) => {
+                        const header = accordion.querySelector(".accordion-header");
+                        const content = accordion.querySelector(".accordion-content");
+
+                        header.addEventListener("click", () => {
+                            content.classList.toggle("active");
+                        });
+                    });
+                </script>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <img src="./assets/img/8.png" alt="">
+        <p>
+            UniqueLeverage.com
+        </p>
+        <p>
+            All Rights Reserved © 2017-2023.
+        </p>
+        <p>
+            Located in Detroit, Michigan 48127.
+        </p>
+        <a href="https://uniqueleverage.com/zoom">Join The Zoom Meeting →</a>
+    </footer>
+
+</body>
+
+</html>
